@@ -5,8 +5,6 @@ with open('CLI_Dictionary\data.json') as f:
   data = json.load(f)
 
 def getCloseMatch(userKey):
-    # for word in get_close_matches(userKey,data.keys(),cutoff=0.8):
-    #     print(word)
     return get_close_matches(userKey,data.keys(),cutoff=0.8)
 
 def getValue(userKey):
@@ -21,6 +19,6 @@ def getValue(userKey):
         else: print("Sorry the word you searching for may be incorrect, please check")
 
 
-# userKey = input("Enter the string to search in the dictionary: \n")
-getValue("tigerr")#userKey.lower())
+userKey = input("Enter the string to search in the dictionary: \n")
+getValue(userKey)
 
