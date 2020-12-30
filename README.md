@@ -8,4 +8,4 @@ This is a repository of several apps that we build in python, we have developed 
 A simple dictionary in python using command line interface
 
 # Website_Blocker:
-A background process in python to block given websites in a user specific time
+A background process in python to block given websites in an user specified time interval
