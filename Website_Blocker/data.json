@@ -1,0 +1,5 @@
+{
+    "domain" : ["www.facebook.com","facebook.com","www.instagram.com","instagram.com","www.netflix.com","netflix.com"],
+    "ToBlockFrom" : 23,
+    "ToBlockTill" : 24
+}
